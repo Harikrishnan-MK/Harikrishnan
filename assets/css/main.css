@@ -1000,6 +1000,9 @@ section,
 }
 
 .testimonials .testimonial-item .testimonial-img {
+  width: 100px;       /* fixed size */
+  height: 100px;      /* fixed size */
+  object-fit: cover;
   border-radius: 50%;
   border: 4px solid var(--background-color);
   margin: 0 auto;
